@@ -1,6 +1,6 @@
 # BlameMe - Projekt Strony HTML
 
-![BlameMe](https://imgur.com/a/qyTF9Gb)
+![BlameMe](https://i.imgur.com/y3qUJQP.png)
 
 
 BlameMe to projekt strony HTML stworzony w celu demonstracji struktury i kodu HTML, CSS oraz JavaScript. Projekt ten zawiera prosty formularz logowania, który można dostosować i rozbudować w zależności od potrzeb.
