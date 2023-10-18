@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlameMe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <script src="scripts/walidlogin.js" defer></script>
+</head>
+<body class="centered">
+    <header>
+        <img src="img/logo.png" alt="logo" class="logo">
+    </header>
+    <section>
+        <noscript>
+            Włącz javascript w swojej przeglądarce
+        </noscript>
+            <form method="post" class="form">
+                <input type="email" name="email" id="email" placeholder="e-mail" class="inptext">
+                <input type="password" name="password" id="password" placeholder="hasło" class="inptext">
+                <p>Nie masz konta? <a href="register.html">Zarejestruj się</a></p>
+                <p>Zapomniałeś hasła? <a href="#">Zmień hasło</a></p>
+                <input type="submit" value="Zaloguj się" class="button" id="login">
+                <div class="error" id="error"></div>
+            </form>
+    </section>
+</body>
+</html>

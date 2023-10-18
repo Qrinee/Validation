@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlameMe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/png">
+    <script src="scripts/walidregister.js" defer></script>
+</head>
+<body class="centered">
+    <header>
+        <img src="img/logo.png" alt="logo" class="logo">
+    </header>
+    <section>
+            <form method="post" class="form">
+                <input type="email" name="email" id="email" placeholder="e-mail" class="inptext">
+                <input type="text" name="nick" id="nick" placeholder="nick" class="inptext">
+                <input type="password" name="password" id="password" placeholder="hasło" class="inptext">
+                <input type="password" name="password" id="passwordRepeat" placeholder="powtórz hasło" class="inptext">
+                <input type="date" name="birth" id="birth"  class="inptext birth" max="12-31-2011">
+                <div class="rules">
+                    <input type="checkbox" name="accept" id="accept" class="accept">
+                    <label for="accept">Akceptuję regulamin serwisu dostępny pod <a href="#">Załącznikiem</a></label>
+                </div>
+                <p>Masz już konto? <a href="index.html">Zaloguj się</a></p>
+                <input type="submit" value="Zarejestruj się" class="button" id="register">
+                <div class="error" id="error"></div>
+            </form>
+    </section>
+</body>
+</html>
